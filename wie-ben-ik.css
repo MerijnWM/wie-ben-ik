@@ -1,0 +1,83 @@
+
+body {
+	background-image: url(foto/achtergrond.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#homeheader {	
+	padding-left: 750px;
+	padding-top: 20px;
+	color: white;
+}
+
+#homemain {	
+	padding-left: 600px;
+	padding-top: 5px;	
+}
+
+article {	
+	color: white;
+	font-size: 140%;
+	font-family: Monospace;
+	width: 50%;	
+	float: left;
+	padding-left: 40px;	
+}
+
+section {
+	width: 30%;
+	float: right;		
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;    
+    background-color: white;
+    color: black;
+    width: 400px;
+    font-family: Monospace;
+    font-size: 120%;
+}
+
+h1 {
+	padding-top: 25px;
+	color: white;
+	padding-left: 200px;
+	font-family: Monospace;
+	font-size: 250%;
+}
+
+a {
+	color: limegreen;
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;    
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    font-family: Monospace;
+    font-size: 120%;  
+}
+
+li {
+    float: left;     
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
